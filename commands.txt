@@ -1,0 +1,2 @@
+Restart-computer -ComputerName (Get-Content c:\computers.txt) -Force -ErrorAction SilentlyContinue -ErrorVariable NoRestart
+shutdown /s -m \\hostname -t 1
