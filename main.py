@@ -17,4 +17,4 @@ def restart():
 def shutdown():
     return 'SHUTDOWN'
 
-app.run(debug=True)
+app.run(host='10')
